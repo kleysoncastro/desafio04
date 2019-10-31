@@ -1,8 +1,14 @@
 import React from 'react';
-// import {} 'react-dom';
+import Main from './pages/Main';
+import GlobalStyle from './style/global';
 
 function App() {
-  return <h1>Texte</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <Main />
+    </>
+  );
 }
 
 export default App;
